@@ -1,0 +1,50 @@
+.RightScreen{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 13%;
+    right:0;
+    z-index: 99;
+}
+.Heading{
+ width:100%;
+ height:25%;
+color: white;
+font-weight: 800;
+font-size: 80px;
+margin: 5%;
+}
+.lowerText{
+    color: white;
+    font-weight: bold;
+    margin-right: 5%;
+}
+.lowerText1{
+    color: white;
+    font-weight: bold;
+    margin-right: 9%;
+}
+.LowerScreen{
+    width: 100%;
+    height:75%;
+    
+    margin: 5%;
+    
+}.alignedBox{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 2%;
+}
+.alignedBox1{
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+    flex-direction: row;
+    margin: 2%;
+    margin-right: 5%;
+}
