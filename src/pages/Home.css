@@ -1,0 +1,22 @@
+.WelcomeTitle{
+    color: white;
+    font-size: 80px;
+}
+.WelcomeSubTitle{
+    color: white;
+    font-size: 20px;
+}
+.WelcomeContent{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.CarouselWelcomeText{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
