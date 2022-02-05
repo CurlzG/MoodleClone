@@ -61,23 +61,24 @@ export default function Home() {
   `;
   return (
     <CanvasContainer>
-    <div class="RightScreen">
-      <div class="Heading">
+    <div className="RightScreen">
+      <div className="Heading">
         Welcome to MoodleClone
-      </div>
-      <div class="lowerText">
+        </div>
+
+      <div className="LowerScreen">
+      <div className="lowerSubText">
         Click here below to either login or sign up
       </div>
-      <div class="LowerScreen">
-       <div class="alignedBox">
-      <p class="lowerText1"> Email:  </p>
+       <div className="alignedBox">
+      <p className="lowerText1"> Email:  </p>
     <TextField id="outlined-basic " style={{ borderRadius:5, backgroundColor: "#ffff", fontSize: "18px" }}  label="Outlined" variant="outlined" />
     </div>
-    <div class="alignedBox">
-      <p class="lowerText"> Password:  </p>
+    <div className="alignedBox">
+      <p className="lowerText"> Password:  </p>
     <TextField id="outlined-basic " style={{ borderRadius:5, backgroundColor: "#ffff", fontSize: "18px" }}  label="Outlined" variant="outlined" />
     </div>
-    <div class="alignedBox1">
+    <div className="alignedBox1">
     <Link to={'/home'}>
     <Button
     style={{

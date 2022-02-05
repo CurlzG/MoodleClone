@@ -1,0 +1,35 @@
+.Background{
+    background-color: #295135;
+    height:25vh;
+    width: 95vw;
+    flex-direction: row;
+    display: flex;
+    opacity: 1;
+    z-index: 99;
+    border-radius: 20px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+.SubPageSM{
+    width:25vw;
+    height:25vh;
+    font-size: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: relative;
+    flex-direction: column;
+    color: #9fcc2e;
+    font-weight: 'bold';
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+}
+.SubPageSM:hover{
+    color: #5A6650;
+}

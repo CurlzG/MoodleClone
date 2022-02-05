@@ -7,8 +7,8 @@ import Three from './pages/Three';
 import About from './pages/About'
 import Products from './pages/Products'
 import ProductDetails from './pages/ProductDetails'
-import './styles.css'
-import './App.css'
+//import './styles.css'
+//import './App.css'
 function App() {
   return (
     <div className="">

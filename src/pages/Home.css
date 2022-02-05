@@ -1,10 +1,19 @@
 .WelcomeTitle{
-    color: white;
+    color: black;
     font-size: 80px;
+
+    width: 100vw;
+    height:20vh;
+
 }
 .WelcomeSubTitle{
-    color: white;
+    color: black;
     font-size: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 99;
 }
 .WelcomeContent{
     width: 100vw;
@@ -12,11 +21,17 @@
     align-items: center;
     flex-direction: column;
     display: flex;
+    position: absolute;
+    z-index: 99;
 }
 .CarouselWelcomeText{
-    color: white;
+    color: black;
     font-size: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: absolute;
+    width: 100vw;
+    height:5vh;
+    z-index: 99;
 }

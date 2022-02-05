@@ -1,0 +1,61 @@
+
+.Title{
+    color: balck;
+    font-weight: 'bold';
+    font-size: 60px;
+    width: 100vw;
+    margin-left: 2%;
+    color: #9fcc2e;
+    margin-top: 2%;
+    height:5vh;
+}
+.TitleAlign{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: #295135;
+    height:15vh;
+}
+.BottomAlign{
+    width: 100vw;
+    height:10vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: cadetblue;
+}
+.ButtonStyle{
+    border-radius: 15;
+    background-color: "#21b6ae";
+    padding: "18px 36px";
+    font-size: "18px";
+    margin:5;
+
+}
+.SubPage{
+    font-size: 30px;
+    margin-right: 5%;
+    margin-top: 1%;
+    color: #9fcc2e;
+    font-weight: 'bold';
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    
+}
+.LinkTitleHome{
+    text-decoration: none;
+    color: #9fcc2e; 
+    margin-left: 2%;
+}
+
+.LinkTitleHome:hover,.SubPage:hover,.Iconstyle:hover{
+    color: #5A6650;
+}
+.Iconstyle{
+    margin-left: 2%;
+    margin-top: 2%;
+    cursor: pointer;
+    color: #9fcc2e;
+}
