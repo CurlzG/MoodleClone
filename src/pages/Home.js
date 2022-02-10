@@ -23,7 +23,7 @@ export default function Home() {
             backgroundImage: 'url(https://source.unsplash.com/random)',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
-            position:'fixed',
+            position:'relative',
             display:'block',
             margin:0,
             padding:0,
