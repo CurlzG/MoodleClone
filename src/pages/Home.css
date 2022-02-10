@@ -1,37 +1,14 @@
-.WelcomeTitle{
-    color: black;
-    font-size: 80px;
-
-    width: 100vw;
-    height:20vh;
+.WelcomeText{
 
 }
-.WelcomeSubTitle{
-    color: black;
-    font-size: 20px;
-    position: absolute;
-    display: flex;
+.AlignCanvasText{
+    flex-direction: row;
+    width: 60vw;
     align-items: center;
-    flex-direction: column;
-    z-index: 99;
-}
-.WelcomeContent{
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-    position: absolute;
-    z-index: 99;
-}
-.CarouselWelcomeText{
-    color: black;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     position: absolute;
-    width: 100vw;
-    height:5vh;
-    z-index: 99;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
 }
